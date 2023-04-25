@@ -4,10 +4,10 @@ const fs = require('fs')
 const solc = require('solc')
 
 
-const web3 = new Web3('https://sepolia.infura.io/v3/de67cbd819264018b84ecc260989a01f')
+const web3 = new Web3('https://sepolia.infura.io/v3/xxxxxxxxxxx')
 
 const address1 = '0x6D3b0C9E6235B287187A0C5086BDF094AB880357'
-const address1Key = Buffer.from('c826357b3eb227fbae4318e9ec56c5cf00d9b82a3944532605ccd286fd334296','hex')
+const address1Key = Buffer.from('xxxxxxxxxxxxxx','hex')
 
 const content = fs.readFileSync('coches.sol').toString()
 var objectSol = {
